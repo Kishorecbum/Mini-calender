@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: cursive;
+    background-color: slateblue;
+}
+.calender{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    overflow: hidden;
+}
+.monthname{
+    background-color: orangered;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    font-weight: 1000 ;
+    font-size: x-large;
+    
+}
+.dayname ,.year{
+    color: rgba(98, 100, 101, 0.582);
+    padding: 0;
+}
+.datenum{
+ font-size: 3em;
+ margin: 0;
+ font-weight: 900;
+}
